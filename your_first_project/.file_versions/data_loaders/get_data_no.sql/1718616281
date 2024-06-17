@@ -1,0 +1,8 @@
+select concat(sm."Seller App" , concat('__',sm.provider_id)) as provider_key,
+sm."Date" as order_date,
+sm.category as category,
+sm."Sub - Category" as sub_category,
+sm.pin_code
+from public.sku_master sm
+where sm."Date" = '2023-11-01'
+order by "Date";

@@ -1,0 +1,30 @@
+version: 0.1.1
+default:
+  # PostgresSQL
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_DBNAME: postgres
+  POSTGRES_SCHEMA: public # Optional
+  POSTGRES_USER: username
+  POSTGRES_PASSWORD: password
+  POSTGRES_HOST: hostname
+  POSTGRES_PORT: 5432
+
+SRC:
+  # PostgresSQL
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_DBNAME: postgres
+  POSTGRES_SCHEMA: public # Optional
+  POSTGRES_USER: sk_open_data
+  POSTGRES_PASSWORD: QWEselopsou&#$
+  POSTGRES_HOST: 35.154.107.28
+  POSTGRES_PORT: 60696
+
+TGT:
+  # PostgresSQL
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_DBNAME: db_stage
+  POSTGRES_SCHEMA: public # Optional
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: password
+  POSTGRES_HOST: localhost
+  POSTGRES_PORT: 5432

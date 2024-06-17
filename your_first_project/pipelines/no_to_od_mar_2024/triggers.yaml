@@ -1,0 +1,14 @@
+triggers:
+- description: null
+  envs: []
+  last_enabled_at: 2024-06-17 15:32:03.631388
+  name: no_od_mar
+  pipeline_uuid: no_to_od_mar_2024
+  schedule_interval: null
+  schedule_type: api
+  settings: null
+  sla: null
+  start_time: 2024-06-17 15:31:00
+  status: active
+  token: 453df81352be4d6ebe651ef0e17ab865
+  variables: {}
